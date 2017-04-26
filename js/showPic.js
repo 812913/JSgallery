@@ -4,6 +4,7 @@
 function showPic(whichpic){
 //单击链接替换图片
     var source=whichpic.getAttribute('href');
+    
     var placeholder=document.getElementById('placeholder');
     placeholder.setAttribute('src',source);//注意sourse无引号
 //单击链接替换文本
